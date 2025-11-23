@@ -1,15 +1,15 @@
 <template>
     <section
-        class="relative min-h-[80vh] overflow-hidden bg-[url('/assets/images/hero-bg-face.png')] bg-[size:80%,450px] bg-[position:200px_top] bg-no-repeat px-5 md:bg-[url('/assets/images/hero-bg-face.png'),url('/assets/images/feather.png')] md:bg-[size:30%,450px] md:bg-[position:right_top,0px_250px]"
+        class="relative h-[60vh] min-[24rem]:h-[50vh] sm:h-[75vh] md:h-[60vh] lg:h-[70vh] xl:h-[85vh] 2xl:h-[100vh] min-[100rem]:h-[80vh] min-[120rem]:h-[70vh]  overflow-hidden bg-[url('/assets/images/hero-bg-face.png')] bg-[size:80%,450px] bg-[position:200px_top] bg-no-repeat px-5 md:bg-[url('/assets/images/hero-bg-face.png'),url('/assets/images/feather.png')] md:bg-[size:32%,460px] md:bg-[position:right_top,0px_280px]"
     >
         <div
             className="sm:hidden absolute inset-0 top-0 bg-gradient-to-r from-transparent via-background/50 to-background/70"
         />
         <div
-            class="container mx-auto flex h-full flex-col items-center justify-center"
+            class="container mx-auto flex h-full items-center justify-center"
         >
             <!-- LEFT CONTENT -->
-            <div class="r grid w-full grid-cols-1 md:pb-20 md:pl-20">
+            <div class="relative grid w-full grid-cols-1 md:pb-10 md:pl-20">
                 <div
                     v-motion
                     v-motion-visible="{ once: false }"

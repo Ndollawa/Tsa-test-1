@@ -1,8 +1,8 @@
 <template>
-  <section class="w-full flex justify-center">
+  <section class="w-full flex justify-center gap-10 my-5 sm:my-10 md:my-20">
     <div
       class="flex flex-col items-center gap-16 max-w-5xl w-full container mx-auto"
-      :class="reverse ? 'md:flex-row-reverse' : 'md:flex-row'"
+      :class="reverse ? 'sm:flex-row-reverse' : 'sm:flex-row'"
     >
 
       <!-- IMAGE -->

@@ -1,9 +1,10 @@
 <template>
     <section
-        class="h-[65vh] sm:h-[75vh] md:h-[60vh] lg:h-[70vh] xl:h-[100vh] 2xl:h-[100vh] min-[100rem]:h-[80vh] min-[120rem]:h-[70vh] bg-[url('/assets/images/hero-bg-face.png')] bg-[size:80%,450px] bg-[position:200px_top] md:bg-[url('/assets/images/hero-bg-face.png'),url('/assets/images/feather.png')] md:bg-[size:30%,450px] md:bg-[position:right_top,0px_250px] bg-no-repeat px-5 relative overflow-hidden"
+        class="h-[60vh] min-[24rem]:h-[50vh] sm:h-[75vh] md:h-[60vh] lg:h-[70vh] xl:h-[85vh] 2xl:h-[100vh] min-[100rem]:h-[80vh] min-[120rem]:h-[70vh] bg-[url('/assets/images/hero-bg-face.png')] bg-[size:80%,450px] bg-[position:200px_top] md:bg-[url('/assets/images/hero-bg-face.png'),url('/assets/images/feather.png')] md:bg-[size:32%,460px] md:bg-[position:right_top,0px_280px] bg-no-repeat px-5 relative overflow-hidden"
     > <div className="sm:hidden absolute inset-0 top-0 bg-gradient-to-r from-transparent via-background/50 to-background/70" />
-        <div class="mx-auto flex container flex-col w-full  h-full justify-center md:pl-20 md:pb-50">
+        <div class="mx-auto flex container flex-col w-full  h-full justify-center">
             <!-- LEFT CONTENT -->
+            <div class="relative grid w-full grid-cols-1 md:pb-40 md:pl-20">
             <div
                 v-motion
                 v-motion-visible="{ once: false }"
@@ -72,6 +73,7 @@
                 }"
             >
                 <ConnectWithBenBtn />
+            </div>
             </div>
         </div>
     </section>
