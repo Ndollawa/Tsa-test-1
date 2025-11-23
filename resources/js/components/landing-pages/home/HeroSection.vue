@@ -4,7 +4,7 @@
     > <div className="sm:hidden absolute inset-0 top-0 bg-gradient-to-r from-transparent via-background/50 to-background/70" />
         <div class="mx-auto flex container flex-col w-full  h-full justify-center">
             <!-- LEFT CONTENT -->
-            <div class="relative grid w-full grid-cols-1 md:pb-40 md:pl-20">
+            <div class="relative grid w-full grid-cols-1 py-auto md:pl-20">
             <div
                 v-motion
                 v-motion-visible="{ once: false }"

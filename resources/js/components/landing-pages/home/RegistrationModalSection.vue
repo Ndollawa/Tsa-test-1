@@ -9,7 +9,7 @@
             class="container mx-auto flex h-full items-center justify-center"
         >
             <!-- LEFT CONTENT -->
-            <div class="relative grid w-full grid-cols-1 md:pb-10 md:pl-20">
+            <div class="relative grid w-full grid-cols-1 py-auto md:pl-20">
                 <div
                     v-motion
                     v-motion-visible="{ once: false }"
