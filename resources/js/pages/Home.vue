@@ -22,6 +22,7 @@ const modal = inject('modalState');
 </script>
 
 <template>
+    <div class="">
     <Head title="Welcome">
         <link rel="preconnect" href="https://rsms.me/" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
@@ -37,12 +38,12 @@ const modal = inject('modalState');
                 },
             }"
         />
-    <div class="font-gotham min-h-screen w-full bg-background text-foreground">
+    <div class="font-gotham min-h-screen w-full min-[120rem]:container mx-auto bg-background text-foreground">
         <LandingNavbar />
         <main class="grid grid-cols-1">
             <!-- MAIN HERO -->
             <HeroSection />
-            <section class="min-h-[50vh] w-full py-10 px-5 sm:py-20">
+            <section class=" w-full py-10 px-5 sm:py-20">
                 <div
                     class="mx-auto grid container grid-cols-1 place-items-center space-y-5 md:space-y-10"
                 >
@@ -160,7 +161,7 @@ Shine of a gloss with the benefits of a balm.
                 ]"
             />
             <section
-                class="grid h-[30vh] grid-cols-1 place-items-center bg-secondary px-5"
+                class="grid h-[30vh]  min-[140rem]:h-[20rem] grid-cols-1 place-items-center bg-secondary px-5"
             >
                 <div
                     v-motion
@@ -191,5 +192,6 @@ Shine of a gloss with the benefits of a balm.
             />
         </main>
         <LandingFooter />
+    </div>
     </div>
 </template>

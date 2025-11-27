@@ -1,6 +1,6 @@
 <template>
     <section
-        class="relative h-[60vh] min-[24rem]:h-[50vh] sm:h-[75vh] md:h-[60vh] lg:h-[70vh] xl:h-[85vh] 2xl:h-[100vh] min-[100rem]:h-[80vh] min-[120rem]:h-[70vh]  overflow-hidden bg-[url('/assets/images/hero-bg-face.png')] bg-[size:80%,450px] bg-[position:200px_top] bg-no-repeat px-5 md:bg-[url('/assets/images/hero-bg-face.png'),url('/assets/images/feather.png')] md:bg-[size:32%,460px] md:bg-[position:right_top,0px_280px]"
+        class="relative w-full min-[120rem]:container mx-auto h-full min-[24rem]:h-[50vh] sm:h-[75vh] md:h-[60vh] lg:h-[70vh] xl:h-[85vh] 2xl:h-[100vh] min-[100rem]:h-[80vh]  min-[120rem]:max-h-[44rem]  overflow-hidden bg-[url('/assets/images/hero-bg-face.png')] bg-[size:80%,450px] bg-[position:200px_top] bg-no-repeat px-5 md:bg-[url('/assets/images/hero-bg-face.png'),url('/assets/images/feather.png')] md:bg-[size:32%,460px] md:bg-[position:right_top,0px_18rem]  xl:bg-[position:right_top,0px_14rem]  min-[90rem]:bg-[position:right_top,0px_18rem] 2xl:bg-[position:right_top,0px_20rem] min-[110rem]:bg-[position:right_top,0px_25rem]  min-[120rem]:bg-[position:right_top,0px_20rem]"
     >
         <div
             className="sm:hidden absolute inset-0 top-0 bg-gradient-to-r from-transparent via-background/50 to-background/70"
@@ -9,7 +9,7 @@
             class="container mx-auto flex h-full items-center justify-center"
         >
             <!-- LEFT CONTENT -->
-            <div class="relative grid w-full grid-cols-1 py-auto md:pl-20">
+            <div class="relative grid w-full grid-cols-1 py-auto md:pl-20 xl:pl-24">
                 <div
                     v-motion
                     v-motion-visible="{ once: false }"
